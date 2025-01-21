@@ -1,0 +1,14 @@
+{
+    "name": "bricksauce.net",
+    "short_name": "Brick sauce",
+    "icons": [
+        {
+            "src": "/assets/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#A36242",
+    "background_color": "#A36242",
+    "display": "standalone"
+}

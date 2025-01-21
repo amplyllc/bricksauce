@@ -1,0 +1,22 @@
+---
+layout: "layouts/base.njk"
+name: home
+home: true
+---
+<picture class="img brick">
+    <source srcset="/assets/img/brick.png" media="(min-width: 600px)"> 
+    <img id="brick" src="/assets/img/brick-m.png" alt="{{ imgAlt }}" loading=“lazy” decoding=“async”> 
+</picture>
+
+<p class="instr">&#8595; Scroll to dip your brick</p>
+
+<button class="sauce" onClick="displayImage()">
+    <div id="imgDiv">
+        <picture class="img">
+            <source srcset="/assets/img/sauce1.png" media="(min-width: 600px)"> 
+            <img id="sauce" src="/assets/img/sauce1-m.png" alt="{{ imgAlt }}" loading=“lazy” decoding=“async”> 
+        </picture>
+    </div>
+</button>
+
+
